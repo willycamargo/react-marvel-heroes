@@ -1,0 +1,26 @@
+.App {
+  max-width: 1240px;
+  width: calc(100vw - 2rem);
+  margin: 0 auto;
+}
+
+.App__content {
+  min-height: 90vh;
+}
+
+.App__title {
+  text-align: center;
+}
+
+.App__heroes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.App__attribuition {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+}
