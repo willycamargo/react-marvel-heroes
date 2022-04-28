@@ -24,3 +24,19 @@
   width: 100%;
   margin-top: 2rem;
 }
+
+.App_loadmore {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: beige;
+  color: #40401d;
+  border: 1px solid #40401d;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.App_loadmore:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
